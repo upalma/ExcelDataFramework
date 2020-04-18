@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c01bca70-101b-4e3b-a625-5c05c216a526" name="Default Changelist" comment="" />
+    <list default="true" id="c01bca70-101b-4e3b-a625-5c05c216a526" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseDataProvider.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="189" />
+          <entry key="java" value="578" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="189" />
+          <entry key="JAVA" value="578" />
         </counts>
       </usages-collector>
     </session>
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+            <state relative-caret-position="912">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,6 +74,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,7 +105,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="832" />
@@ -118,6 +124,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -169,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587235950330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587239440589" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
@@ -192,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.BaseDataProvider">
     <configuration name="BaseDataProvider" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dataDriven" />
       <extension name="coverage">
@@ -209,9 +216,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BaseDataProvider.loginBaseWork" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dataDriven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base" />
+      <option name="MAIN_CLASS_NAME" value="base.BaseDataProvider" />
+      <option name="METHOD_NAME" value="loginBaseWork" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.BaseDataProvider" />
+      <item itemvalue="TestNG.BaseDataProvider.loginBaseWork" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.BaseDataProvider" />
+        <item itemvalue="TestNG.BaseDataProvider.loginBaseWork" />
       </list>
     </recent_temporary>
   </component>
@@ -229,18 +259,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseDataProvider - 2020.04.18 at 13h 31m 05s.xml">
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 17m 29s.xml">
       <configuration name="BaseDataProvider" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BaseDataProvider - 2020.04.18 at 13h 32m 03s.xml">
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 20m 36s.xml">
       <configuration name="BaseDataProvider" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BaseDataProvider - 2020.04.18 at 13h 47m 49s.xml">
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 28m 50s.xml">
+      <configuration name="BaseDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 30m 18s.xml">
+      <configuration name="BaseDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 31m 56s.xml">
+      <configuration name="BaseDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 38m 52s.xml">
+      <configuration name="BaseDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 39m 57s.xml">
+      <configuration name="BaseDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 40m 40s.xml">
+      <configuration name="BaseDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 41m 10s.xml">
+      <configuration name="BaseDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BaseDataProvider - 2020.04.18 at 14h 47m 01s.xml">
       <configuration name="BaseDataProvider" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="832" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -251,9 +302,9 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15379113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32972974" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
@@ -285,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+        <state relative-caret-position="912">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
