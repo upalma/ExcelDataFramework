@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MultipleBrowserRun" parallel="true" thread-count="3">
+    <test name = "RunOnChrome">
+        <parameter name="browser" value="Chrome_Browser"/>
+            <classes>
+                <class name="base.MultipleBrowser"/>
+            </classes>
+    </test>
+    <test name = "RunOnFirefox">
+        <parameter name="browser" value="Firefox_Browser"/>
+        <classes>
+            <class name="base.MultipleBrowser"/>
+        </classes>
+    </test>
+    <test name = "RunOnSafari">
+        <parameter name="browser" value="Safari_Browser"/>
+        <classes>
+            <class name="base.MultipleBrowser"/>
+        </classes>
+    </test>
+</suite>

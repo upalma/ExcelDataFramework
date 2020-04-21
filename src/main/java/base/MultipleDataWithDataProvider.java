@@ -8,14 +8,17 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import java.util.concurrent.TimeUnit;
+
 import static java.lang.Thread.sleep;
 
-public class BaseDataProvider {
+public class MultipleDataWithDataProvider {
+
     WebDriver driver;
 
-    @Test(dataProvider = "credentialData")
-    public void loginBaseWork( String userName, String password) throws InterruptedException {
+@Test(dataProvider = "credential")
+     public void loginBaseWork (String userName, String password) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/Users/palmauzzal/dataDriven/browser-drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://wordpress.com/log-in");
@@ -23,14 +26,16 @@ public class BaseDataProvider {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().fullscreen();
 
-        driver.findElement(By.xpath("//*[text()='Email Address or Username']//following::input[1]")).sendKeys(userName, Keys.ENTER);
-        sleep(5);
+        driver.findElement(By.xpath("//*[text()='Email Address or Username']//following::input[1]")).sendKeys(userName);
+        sleep(5000);
+        driver.findElement(By.xpath("//button[text()='Continue']")).click();
         driver.findElement(By.xpath("//*[text()='Password']//following::input[1]")).sendKeys(password);
-        sleep(5);
-        driver.findElement(By.xpath("//button[text()='Log In']")).submit();
+        //driver.findElement(By.xpath("//button[text()='Log In']")).submit();
+        sleep(5000);
 
         Assert.assertTrue(driver.getTitle().contains("Log In"),"User is not able to login - Please provide correct Password");
         System.out.println("Page Title verified - user was able to successfully login");
+
     }
 
     @AfterMethod
@@ -38,20 +43,23 @@ public class BaseDataProvider {
         driver.quit();
     }
 
-    @DataProvider(name = "credentialData")
-    public Object [][] enterCredentials(){
+    @DataProvider(name = "credential")
+    public Object [][] singleCredentials(){
 
-        Object [][] credentials = new Object[3][2];
+    Object [][] credentials = new Object[4][2];
 
-        credentials[0][0] ="88888";
-        credentials[0][1] ="99999";
+        credentials[0] [0]="donotenteradmin";
+        credentials[0][1] ="Admin321!";
 
-        credentials[1][0] ="donotenteradmin";
+        credentials[1] [0]="donotenteradmin";
         credentials[1][1] ="Admin321!";
 
-        credentials[2][0] ="abcdn";
-        credentials[2][1] ="efgh!";
+        credentials[2] [0]="donotenteradmin";
+        credentials[2][1] ="Admin321111!";
 
-        return credentials;
+        credentials[3] [0]="donotenteradmin";
+        credentials[3][1] ="Admin321111!";
+         return credentials;
+        }
     }
-}
+
