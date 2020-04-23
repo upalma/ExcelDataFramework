@@ -1,0 +1,7 @@
+base/BaseDataProvider.class
+base/ExtentReportTestNG.class
+base/MultipleBrowser.class
+base/MultipleDataWithDataProvider.class
+logforj/Log4jStatus.class
+base/SingleDataWithDataProvider.class
+base/ExtentReportSimple.class
