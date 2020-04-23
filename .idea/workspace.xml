@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c01bca70-101b-4e3b-a625-5c05c216a526" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/MultipleBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/MultipleBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/MultipleBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/MultipleBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/ExtentReportTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/ExtentReportTestNG.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,14 +44,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="2661" />
+          <entry key="java" value="2695" />
           <entry key="properties" value="31" />
           <entry key="xml" value="254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2661" />
+          <entry key="JAVA" value="2695" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="31" />
           <entry key="XML" value="254" />
@@ -68,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/ExtentReportTestNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="64" column="152" lean-forward="true" selection-start-line="64" selection-start-column="152" selection-end-line="64" selection-end-column="152" />
+            <state relative-caret-position="399">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -288,7 +284,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587672667317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587673555793" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
@@ -431,9 +427,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExtentReportTestNG - 2020.04.22 at 11h 38m 27s.xml">
-      <configuration name="ExtentReportTestNG" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_palmauzzal_dataDriven_testNG_xml - 2020.04.22 at 12h 15m 03s.xml">
       <configuration name="/Users/palmauzzal/dataDriven/testNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -461,12 +454,15 @@
     <history-entry file="ExtentReportTestNG - 2020.04.23 at 15h 06m 41s.xml">
       <configuration name="ExtentReportTestNG" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExtentReportTestNG - 2020.04.23 at 15h 11m 26s.xml">
+      <configuration name="ExtentReportTestNG" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16452074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16452074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,12 +471,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.28674698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.28674698" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32771084" />
@@ -563,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/ExtentReportTestNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="64" column="152" lean-forward="true" selection-start-line="64" selection-start-column="152" selection-end-line="64" selection-end-column="152" />
+        <state relative-caret-position="399">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
