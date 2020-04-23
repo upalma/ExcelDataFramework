@@ -30,7 +30,7 @@ public class ExtentReportTestNG {
 
     @BeforeTest
     public void beforeTest(){
-        System.setProperty("webdriver.chrome", "/Users/palmauzzal/dataDriven/browser-drivers/chromedriver");
+        System.setProperty("webdriver.chrome.com", "/Users/palmauzzal/dataDriven/browser-drivers/chromedriver");
         driver = new ChromeDriver();
     }
 
@@ -75,7 +75,6 @@ public class ExtentReportTestNG {
     @AfterSuite
     public void tearDown(){
         extent.flush();
-
     }
 }
 
