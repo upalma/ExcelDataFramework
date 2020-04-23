@@ -18,19 +18,19 @@ public class MultipleBrowser {
     public void launchBrowser(String browser) {
 
         if (browser.equalsIgnoreCase("Chrome_Browser")) {
-            System.out.println("Start testing with : " +browser);
+            System.out.println("Starting test with : " +browser);
             System.setProperty("webdriver.chrome.driver", "/Users/palmauzzal/dataDriven/browser-drivers/chromedriver");
             driver = new ChromeDriver();
             System.out.println("Chrome Browser was lunched Successfully");
             }
         if (browser.equalsIgnoreCase("Firefox_Browser")) {
-            System.out.println("Start testing with : " +browser);
+            System.out.println("Starting test with : " +browser);
             System.setProperty("webdriver.gecko.driver", "/Users/palmauzzal/dataDriven/browser-drivers/geckodriver");
             driver = new FirefoxDriver();
             System.out.println("Firefox Browser was lunched Successfully");
             }
         if (browser.equalsIgnoreCase("Safari_Browser")) {
-            System.out.println("Start testing with : " +browser);
+            System.out.println("Starting test with : " +browser);
             System.setProperty("webdriver.safari.com", "/Users/palmauzzal/dataDriven/browser-drivers/Safari");
             driver = new SafariDriver();
             System.out.println("Safari Browser was lunched Successfully");

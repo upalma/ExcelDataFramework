@@ -4,9 +4,9 @@
 <suite name="MultipleBrowserRun" parallel="true" thread-count="3">
     <test name = "RunOnChrome">
         <parameter name="browser" value="Chrome_Browser"/>
-            <classes>
-                <class name="base.MultipleBrowser"/>
-            </classes>
+        <classes>
+            <class name="base.MultipleBrowser"/>
+        </classes>
     </test>
     <test name = "RunOnFirefox">
         <parameter name="browser" value="Firefox_Browser"/>
